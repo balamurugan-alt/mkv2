@@ -48,7 +48,6 @@ const nextConfig = {
     defaultLocale: jssConfig.defaultLanguage,
     localeDetection: false, // DEMO TEAM CUSTOMIZATION - Disable locale detection
   },
-  
   // Enable React Strict Mode
   reactStrictMode: true,
 
@@ -79,7 +78,7 @@ const nextConfig = {
       {
         source: '/sitecore/service/:path*',
         destination: `${jssConfig.sitecoreApiHost}/sitecore/service/:path*`,
-      }, 
+      },
     ];
   },
 };
