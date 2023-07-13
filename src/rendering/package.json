@@ -151,7 +151,7 @@
     "bootstrap": "ts-node --project tsconfig.scripts.json scripts/bootstrap.ts",
     "build": "npm-run-all --serial bootstrap next:build",
     "DEMO_TEAM_CUSTOMIZATION_GRAPHQL_ENDPOINT": "Hardcode the GraphQL endpoint",
-    "graphql:update": "cross-env GRAPH_QL_ENDPOINT=https://cm.xmcloudcm.localhost/sitecore/api/graph/edge ts-node --project tsconfig.scripts.json ./scripts/fetch-graphql-introspection-data.ts",
+    "graphql:update": "cross-env GRAPH_QL_ENDPOINT=https://xmc-altudo1-sitecorepra14b9-mccormickdev.sitecorecloud.io/sitecore/api/graph/edge ts-node --project tsconfig.scripts.json ./scripts/fetch-graphql-introspection-data.ts",
     "END_CUSTOMIZATION_GRAPHQL_ENDPOINT": "",
     "next:build": "next build",
     "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
