@@ -38,7 +38,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.7.0",
-    "@brightcove/player-loader": "^1.8.0",
     "@brightcove/react-player-loader": "^1.4.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -78,7 +77,6 @@
     "video.js": "^8.3.0"
   },
   "devDependencies": {
-    "@brightcove/player-loader": "^1.8.0",
     "@graphql-codegen/cli": "^1.21.8",
     "@graphql-codegen/import-types-preset": "^2.2.6",
     "@graphql-codegen/plugin-helpers": "^3.1.2",
