@@ -16,10 +16,16 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <Script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js" strategy="lazyOnload" />
+          <Script
+            src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"
+            strategy="lazyOnload"
+          />
           <Script src="https://cdn.whisk.com/sdk/shopping-list.js" strategy="lazyOnload" />
-          <Script src="//destinilocators.com/mccormickcompany/pdpwidget/install/" strategy="lazyOnload" />
-          <Script src="//ui.powerreviews.com/stable/4.1/ui.js" strategy="lazyOnload" />
+          <Script
+            src="https://destinilocators.com/mccormickcompany/pdpwidget/install/"
+            strategy="lazyOnload"
+          />
+          <Script src="https://ui.powerreviews.com/stable/4.1/ui.js" strategy="lazyOnload" />
           <Script src="https://connect.facebook.net/en_US/all.js" strategy="lazyOnload" />
         </body>
       </Html>
