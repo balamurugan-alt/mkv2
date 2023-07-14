@@ -7,8 +7,8 @@ const VideoPlayer = () => {
   return (
     <ReactPlayerLoader
       id="playlist-player-id"
-      accountId="5967408303001"
-      videoId="5988416512001"
+      accountId="1752604059001"
+      videoId="5819230967001"
       onFailure={onFailure}
       onSuccess={onSuccess}
       options={{
